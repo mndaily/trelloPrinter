@@ -1,0 +1,50 @@
+body {
+    font-family: monospace;
+    font-size: 8px;
+    width: 10in;
+}
+
+#loggedout {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#loggedin { 
+    display: none; 
+}
+
+#header {
+    padding: 4px;
+    border-bottom: 1px solid #000;
+    background: #eee;
+}
+
+#output {
+    padding: 4px;
+}
+
+#outputTable {
+	border-collapse:collapse;
+	border: 3px solid black;
+	text-align: center;
+}
+
+.outputHead {
+	font-weight: bold;
+	border: none;
+}
+
+.card {
+    border: 2px solid grey;
+}
+
+.reporters{
+	text-align:left;
+	white-space:nowrap;
+}
+
+td {
+	border: 1px solid grey;
+	padding-left: 1em;
+	padding-right: 1em;
+}
